@@ -113,6 +113,6 @@ extension HomeViewController: MKMapViewDelegate {
     }
     
     func mapView(_ mapView: MKMapView, annotationView view: MKAnnotationView, calloutAccessoryControlTapped control: UIControl) {
-        guard let annotation = view.annotation as? PlaceAnnotation else {return}
+        guard view.annotation is PlaceAnnotation else {return}
     }
 }

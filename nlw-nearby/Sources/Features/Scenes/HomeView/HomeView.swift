@@ -160,10 +160,12 @@ class HomeView: UIView {
     
     func updateFilterButtons(with categories: [Category], action: @escaping (Category) -> Void) {
         let categoryIcons: [String: String] = [
-            "Alimentação": "fork.knife",
-            "Compras": "cart",
-            "Hospedagem": "bed.double",
+            "Alimentação": "toolsKitchen",
+            "Compras": "shoppingBag",
+            "Hospedagem": "bed",
             "Padaria": "cup.and.saucer",
+            "Supermercado": "shoppingCart",
+            "Farmácia": "firstAidKit"
             //TODO: UPDATE THESE ICONS from Figma
 //            "Alimentação": "fork.knife",
 //            "Compras": "cart",
